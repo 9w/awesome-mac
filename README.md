@@ -1,4 +1,3 @@
 # 9w/AWESOME-MAC
 
-- [Spectacle](https://www.spectacleapp.com/)
-- [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+- [Shorui](https://apps.apple.com/gm/app/shorui/id1448111859)
