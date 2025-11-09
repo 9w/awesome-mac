@@ -1,0 +1,17 @@
+{
+    "description": "Press ESC to switch to the English (ABC) layout when the current keyboard layout is not English.",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "input_sources": [{ "input_source_id": "com.apple.keylayout.ABC" }],
+                    "type": "input_source_unless"
+                }
+            ],
+            "from": { "key_code": "escape" },
+            "to": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } }],
+            "to_after_key_up": [{ "key_code": "escape" }],
+            "type": "basic"
+        }
+    ]
+}
